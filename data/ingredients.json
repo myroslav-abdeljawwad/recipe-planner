@@ -1,0 +1,829 @@
+{
+  "author": "Myroslav Mokhammad Abdeljawwad",
+  "ingredients": [
+    {
+      "id": 1,
+      "name": "Olive Oil",
+      "category": "Oil & Fats",
+      "unit": "ml",
+      "calories_per_100g": 884,
+      "protein_g": 0.0,
+      "carbs_g": 0.0,
+      "fat_g": 100.0,
+      "substitutes": [
+        {
+          "name": "Canola Oil",
+          "note": "Neutral flavor, higher smoke point"
+        },
+        {
+          "name": "Avocado Oil",
+          "note": "Rich in monounsaturated fats"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Extra Virgin Olive Oil",
+      "category": "Oil & Fats",
+      "unit": "ml",
+      "calories_per_100g": 884,
+      "protein_g": 0.0,
+      "carbs_g": 0.0,
+      "fat_g": 100.0,
+      "substitutes": [
+        {
+          "name": "Olive Oil",
+          "note": "Same nutritional profile, slightly milder taste"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Butter",
+      "category": "Dairy",
+      "unit": "g",
+      "calories_per_100g": 717,
+      "protein_g": 0.85,
+      "carbs_g": 0.06,
+      "fat_g": 81.11,
+      "substitutes": [
+        {
+          "name": "Margarine",
+          "note": "Lower saturated fat, use in baking"
+        },
+        {
+          "name": "Coconut Oil",
+          "note": "Solid at room temperature, adds tropical flavor"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Parmesan Cheese",
+      "category": "Dairy",
+      "unit": "g",
+      "calories_per_100g": 431,
+      "protein_g": 38.0,
+      "carbs_g": 3.2,
+      "fat_g": 29.9,
+      "substitutes": [
+        {
+          "name": "Pecorino Romano",
+          "note": "Similar sharpness, slightly saltier"
+        },
+        {
+          "name": "Grated Cheddar",
+          "note": "Milder flavor, less intense aroma"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Chicken Breast",
+      "category": "Protein",
+      "unit": "g",
+      "calories_per_100g": 165,
+      "protein_g": 31.0,
+      "carbs_g": 0.0,
+      "fat_g": 3.6,
+      "substitutes": [
+        {
+          "name": "Turkey Breast",
+          "note": "Similar lean profile"
+        },
+        {
+          "name": "Tofu (firm)",
+          "note": "Vegetarian option, absorbs marinades well"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Salmon Fillet",
+      "category": "Protein",
+      "unit": "g",
+      "calories_per_100g": 208,
+      "protein_g": 20.4,
+      "carbs_g": 0.0,
+      "fat_g": 13.4,
+      "substitutes": [
+        {
+          "name": "Mackerel",
+          "note": "Higher omega‑3 content"
+        },
+        {
+          "name": "Sardines",
+          "note": "Smaller fillets, great for salads"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Eggs (Large)",
+      "category": "Protein",
+      "unit": "g",
+      "calories_per_100g": 155,
+      "protein_g": 12.6,
+      "carbs_g": 1.1,
+      "fat_g": 10.6,
+      "substitutes": [
+        {
+          "name": "Egg Substitute (Aquafaba)",
+          "note": "Vegan, works in baking"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Spinach",
+      "category": "Vegetable",
+      "unit": "g",
+      "calories_per_100g": 23,
+      "protein_g": 2.9,
+      "carbs_g": 3.6,
+      "fat_g": 0.4,
+      "substitutes": [
+        {
+          "name": "Kale",
+          "note": "Heavier texture, more fiber"
+        },
+        {
+          "name": "Swiss Chard",
+          "note": "Similar nutrient profile"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Broccoli",
+      "category": "Vegetable",
+      "unit": "g",
+      "calories_per_100g": 34,
+      "protein_g": 2.8,
+      "carbs_g": 6.6,
+      "fat_g": 0.4,
+      "substitutes": [
+        {
+          "name": "Cauliflower",
+          "note": "Low-carb alternative"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Red Bell Pepper",
+      "category": "Vegetable",
+      "unit": "g",
+      "calories_per_100g": 31,
+      "protein_g": 1.0,
+      "carbs_g": 6.0,
+      "fat_g": 0.3,
+      "substitutes": [
+        {
+          "name": "Green Bell Pepper",
+          "note": "Similar taste, slightly less sweet"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Garlic Clove",
+      "category": "Spice",
+      "unit": "g",
+      "calories_per_100g": 149,
+      "protein_g": 6.4,
+      "carbs_g": 33.1,
+      "fat_g": 0.5,
+      "substitutes": [
+        {
+          "name": "Garlic Powder",
+          "note": "Dry form, convenient for long storage"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Onion (Red)",
+      "category": "Vegetable",
+      "unit": "g",
+      "calories_per_100g": 40,
+      "protein_g": 1.1,
+      "carbs_g": 9.3,
+      "fat_g": 0.1,
+      "substitutes": [
+        {
+          "name": "Yellow Onion",
+          "note": "Milder flavor, more common"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Tomato (Roma)",
+      "category": "Vegetable",
+      "unit": "g",
+      "calories_per_100g": 48,
+      "protein_g": 1.2,
+      "carbs_g": 7.8,
+      "fat_g": 0.4,
+      "substitutes": [
+        {
+          "name": "Cherry Tomato",
+          "note": "Smaller size, sweeter taste"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Basil (Fresh)",
+      "category": "Herb",
+      "unit": "g",
+      "calories_per_100g": 22,
+      "protein_g": 3.2,
+      "carbs_g": 1.6,
+      "fat_g": 0.6,
+      "substitutes": [
+        {
+          "name": "Oregano",
+          "note": "Earthy flavor, good in Mediterranean dishes"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Salt (Sea Salt)",
+      "category": "Spice",
+      "unit": "g",
+      "calories_per_100g": 0,
+      "protein_g": 0.0,
+      "carbs_g": 0.0,
+      "fat_g": 0.0,
+      "substitutes": [
+        {
+          "name": "Kosher Salt",
+          "note": "Coarser crystals, less iodine"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Black Pepper (Ground)",
+      "category": "Spice",
+      "unit": "g",
+      "calories_per_100g": 255,
+      "protein_g": 10.3,
+      "carbs_g": 64.0,
+      "fat_g": 3.4,
+      "substitutes": [
+        {
+          "name": "White Pepper",
+          "note": "Milder color, similar heat"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Flour (All‑Purpose)",
+      "category": "Grain",
+      "unit": "g",
+      "calories_per_100g": 364,
+      "protein_g": 10.3,
+      "carbs_g": 76.0,
+      "fat_g": 1.0,
+      "substitutes": [
+        {
+          "name": "Whole Wheat Flour",
+          "note": "Higher fiber, richer flavor"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Sugar (White)",
+      "category": "Sweetener",
+      "unit": "g",
+      "calories_per_100g": 387,
+      "protein_g": 0.0,
+      "carbs_g": 100.0,
+      "fat_g": 0.0,
+      "substitutes": [
+        {
+          "name": "Honey",
+          "note": "Adds moisture, sweeter taste"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Rice (Long Grain)",
+      "category": "Grain",
+      "unit": "g",
+      "calories_per_100g": 130,
+      "protein_g": 2.4,
+      "carbs_g": 28.7,
+      "fat_g": 0.3,
+      "substitutes": [
+        {
+          "name": "Quinoa",
+          "note": "Higher protein, gluten‑free"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Pasta (Spaghetti)",
+      "category": "Grain",
+      "unit": "g",
+      "calories_per_100g": 131,
+      "protein_g": 5.0,
+      "carbs_g": 25.0,
+      "fat_g": 1.3,
+      "substitutes": [
+        {
+          "name": "Zucchini Noodles",
+          "note": "Low‑carb alternative"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Milk (Whole)",
+      "category": "Dairy",
+      "unit": "ml",
+      "calories_per_100g": 61,
+      "protein_g": 3.2,
+      "carbs_g": 4.8,
+      "fat_g": 3.5,
+      "substitutes": [
+        {
+          "name": "Almond Milk (Unsweetened)",
+          "note": "Low calories, nutty flavor"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Yogurt (Plain Greek)",
+      "category": "Dairy",
+      "unit": "g",
+      "calories_per_100g": 59,
+      "protein_g": 10.0,
+      "carbs_g": 3.6,
+      "fat_g": 0.4,
+      "substitutes": [
+        {
+          "name": "Cottage Cheese",
+          "note": "Similar protein, tangier taste"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Apple (Medium)",
+      "category": "Fruit",
+      "unit": "g",
+      "calories_per_100g": 52,
+      "protein_g": 0.3,
+      "carbs_g": 14.0,
+      "fat_g": 0.2,
+      "substitutes": [
+        {
+          "name": "Pear",
+          "note": "Similar sweetness, different texture"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Banana (Medium)",
+      "category": "Fruit",
+      "unit": "g",
+      "calories_per_100g": 96,
+      "protein_g": 1.3,
+      "carbs_g": 23.0,
+      "fat_g": 0.3,
+      "substitutes": [
+        {
+          "name": "Dates (pitted)",
+          "note": "Natural sweetener, chewy"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Blueberries (Frozen)",
+      "category": "Fruit",
+      "unit": "g",
+      "calories_per_100g": 57,
+      "protein_g": 0.7,
+      "carbs_g": 14.5,
+      "fat_g": 0.3,
+      "substitutes": [
+        {
+          "name": "Raspberries (Frozen)",
+          "note": "Slightly tart, higher fiber"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Coconut Milk (Full Fat)",
+      "category": "Dairy Alternative",
+      "unit": "ml",
+      "calories_per_100g": 230,
+      "protein_g": 0.9,
+      "carbs_g": 6.7,
+      "fat_g": 23.0,
+      "substitutes": [
+        {
+          "name": "Coconut Cream",
+          "note": "Thicker consistency, richer taste"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Soy Sauce (Low Sodium)",
+      "category": "Condiment",
+      "unit": "ml",
+      "calories_per_100g": 53,
+      "protein_g": 6.4,
+      "carbs_g": 5.9,
+      "fat_g": 0.3,
+      "substitutes": [
+        {
+          "name": "Tamari",
+          "note": "Gluten‑free alternative"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Mustard (Dijon)",
+      "category": "Condiment",
+      "unit": "g",
+      "calories_per_100g": 66,
+      "protein_g": 2.6,
+      "carbs_g": 5.0,
+      "fat_g": 4.1,
+      "substitutes": [
+        {
+          "name": "Whole Grain Mustard",
+          "note": "Higher fiber, less sharp"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Lemon (Juice)",
+      "category": "Fruit",
+      "unit": "ml",
+      "calories_per_100g": 22,
+      "protein_g": 0.4,
+      "carbs_g": 6.9,
+      "fat_g": 0.2,
+      "substitutes": [
+        {
+          "name": "Lime Juice",
+          "note": "Similar acidity, slightly sweeter"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Olive (Kalamata)",
+      "category": "Vegetable",
+      "unit": "g",
+      "calories_per_100g": 115,
+      "protein_g": 0.8,
+      "carbs_g": 3.4,
+      "fat_g": 10.7,
+      "substitutes": [
+        {
+          "name": "Green Olives (Kosher)",
+          "note": "Milder, less salty"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Canned Chickpeas",
+      "category": "Legume",
+      "unit": "g",
+      "calories_per_100g": 164,
+      "protein_g": 8.9,
+      "carbs_g": 27.4,
+      "fat_g": 2.6,
+      "substitutes": [
+        {
+          "name": "Dry Chickpeas (soaked)",
+          "note": "Lower sodium, same nutrition"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Quinoa",
+      "category": "Grain",
+      "unit": "g",
+      "calories_per_100g": 120,
+      "protein_g": 4.1,
+      "carbs_g": 21.3,
+      "fat_g": 1.9,
+      "substitutes": [
+        {
+          "name": "Buckwheat",
+          "note": "Gluten‑free, similar texture"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Black Beans (Canned)",
+      "category": "Legume",
+      "unit": "g",
+      "calories_per_100g": 132,
+      "protein_g": 8.7,
+      "carbs_g": 22.8,
+      "fat_g": 0.5,
+      "substitutes": [
+        {
+          "name": "Kidney Beans (Canned)",
+          "note": "Slightly sweeter, richer color"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Carrot (Raw)",
+      "category": "Vegetable",
+      "unit": "g",
+      "calories_per_100g": 41,
+      "protein_g": 0.9,
+      "carbs_g": 9.6,
+      "fat_g": 0.2,
+      "substitutes": [
+        {
+          "name": "Parsnip (Raw)",
+          "note": "Earthy flavor, similar crunch"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Zucchini (Fresh)",
+      "category": "Vegetable",
+      "unit": "g",
+      "calories_per_100g": 17,
+      "protein_g": 1.2,
+      "carbs_g": 3.1,
+      "fat_g": 0.3,
+      "substitutes": [
+        {
+          "name": "Yellow Squash",
+          "note": "Similar texture, sweeter"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Tomato Paste (Canned)",
+      "category": "Vegetable",
+      "unit": "g",
+      "calories_per_100g": 82,
+      "protein_g": 3.4,
+      "carbs_g": 18.5,
+      "fat_g": 0.6,
+      "substitutes": [
+        {
+          "name": "Tomato Sauce (Low Sugar)",
+          "note": "Smoother consistency"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Balsamic Vinegar",
+      "category": "Condiment",
+      "unit": "ml",
+      "calories_per_100g": 88,
+      "protein_g": 0.0,
+      "carbs_g": 2.5,
+      "fat_g": 0.0,
+      "substitutes": [
+        {
+          "name": "Red Wine Vinegar",
+          "note": "Milder, less sweet"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Honey (Raw)",
+      "category": "Sweetener",
+      "unit": "g",
+      "calories_per_100g": 304,
+      "protein_g": 0.3,
+      "carbs_g": 82.6,
+      "fat_g": 0.0,
+      "substitutes": [
+        {
+          "name": "Maple Syrup",
+          "note": "Slightly smoky flavor"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Cinnamon (Ground)",
+      "category": "Spice",
+      "unit": "g",
+      "calories_per_100g": 247,
+      "protein_g": 4.0,
+      "carbs_g": 81.2,
+      "fat_g": 1.8,
+      "substitutes": [
+        {
+          "name": "Nutmeg (Ground)",
+          "note": "Similar warmth, sweeter"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Vanilla Extract",
+      "category": "Spice",
+      "unit": "ml",
+      "calories_per_100g": 288,
+      "protein_g": 0.1,
+      "carbs_g": 10.2,
+      "fat_g": 0.3,
+      "substitutes": [
+        {
+          "name": "Vanilla Bean (split)",
+          "note": "More natural, requires extraction"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Pine Nuts",
+      "category": "Nut",
+      "unit": "g",
+      "calories_per_100g": 673,
+      "protein_g": 13.7,
+      "carbs_g": 13.9,
+      "fat_g": 68.4,
+      "substitutes": [
+        {
+          "name": "Almonds (whole)",
+          "note": "Lower fat, similar crunch"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Peanut Butter (Natural)",
+      "category": "Spread",
+      "unit": "g",
+      "calories_per_100g": 588,
+      "protein_g": 25.8,
+      "carbs_g": 20.0,
+      "fat_g": 50.4,
+      "substitutes": [
+        {
+          "name": "Almond Butter",
+          "note": "Slightly sweeter, lower fat"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Raspberries (Fresh)",
+      "category": "Fruit",
+      "unit": "g",
+      "calories_per_100g": 52,
+      "protein_g": 1.2,
+      "carbs_g": 11.9,
+      "fat_g": 0.7,
+      "substitutes": [
+        {
+          "name": "Blackberries (Fresh)",
+          "note": "Similar flavor, higher fiber"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Dark Chocolate (70% Cacao)",
+      "category": "Snack",
+      "unit": "g",
+      "calories_per_100g": 598,
+      "protein_g": 4.9,
+      "carbs_g": 46.3,
+      "fat_g": 42.6,
+      "substitutes": [
+        {
+          "name": "Milk Chocolate (30% Cacao)",
+          "note": "Higher sugar, lower cacao content"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Greek Yogurt (Low Fat)",
+      "category": "Dairy",
+      "unit": "g",
+      "calories_per_100g": 59,
+      "protein_g": 10.0,
+      "carbs_g": 3.6,
+      "fat_g": 0.4,
+      "substitutes": [
+        {
+          "name": "Skyr (Icelandic)",
+          "note": "Higher protein, tangier"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Almond Milk (Unsweetened)",
+      "category": "Dairy Alternative",
+      "unit": "ml",
+      "calories_per_100g": 15,
+      "protein_g": 0.5,
+      "carbs_g": 0.6,
+      "fat_g": 1.2,
+      "substitutes": [
+        {
+          "name": "Oat Milk (Unsweetened)",
+          "note": "Higher carbs, smoother taste"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Coconut Oil",
+      "category": "Oil & Fats",
+      "unit": "ml",
+      "calories_per_100g": 862,
+      "protein_g": 0.0,
+      "carbs_g": 0.0,
+      "fat_g": 100.0,
+      "substitutes": [
+        {
+          "name": "Butter",
+          "note": "Same fat content, different flavor"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Tortilla (Whole Wheat)",
+      "category": "Grain",
+      "unit": "g",
+      "calories_per_100g": 167,
+      "protein_g": 4.6,
+      "carbs_g": 29.5,
+      "fat_g": 3.7,
+      "substitutes": [
+        {
+          "name": "Corn Tortilla",
+          "note": "Gluten‑free, lighter texture"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Cocoa Powder (Unsweetened)",
+      "category": "Spice",
+      "unit": "g",
+      "calories_per_100g": 228,
+      "protein_g": 20.1,
+      "carbs_g": 57.9,
+      "fat_g": 13.6,
+      "substitutes": [
+        {
+          "name": "Cocoa Powder (Dutch‑processed)",
+          "note": "Milder taste, darker color"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Seaweed Sheets (Nori)",
+      "category": "Snack",
+      "unit": "g",
+      "calories_per_100g": 350,
+      "protein_g": 43.0,
+      "carbs_g": 12.5,
+      "fat_g": 1.7,
+      "substitutes": [
+        {
+          "name": "Wakame (dried)",
+          "note": "Slightly sweeter, higher iodine"
+        }
+      ]
+    }
+  ]
+}
