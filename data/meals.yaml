@@ -1,0 +1,164 @@
+# Recipe Planner Meals Configuration
+#
+# This YAML file defines the meal catalog used by the recipe-planner.
+# It references ingredients defined in `data/ingredients.json` and is
+# consumed by `planner/planner.py` to generate weekly plans.
+#
+# Author: Myroslav Mokhammad Abdeljawwad
+
+meals:
+  - name: "Vegetable Stir‑Fry"
+    servings: 2
+    tags:
+      - vegan
+      - quick
+    ingredients:
+      - ingredient: "Broccoli florets"
+        quantity: 200
+        unit: "g"
+      - ingredient: "Carrot sticks"
+        quantity: 150
+        unit: "g"
+      - ingredient: "Bell pepper, sliced"
+        quantity: 100
+        unit: "g"
+      - ingredient: "Soy sauce"
+        quantity: 2
+        unit: "tbsp"
+      - ingredient: "Garlic cloves, minced"
+        quantity: 1
+        unit: "clove"
+      - ingredient: "Olive oil"
+        quantity: 1
+        unit: "tbsp"
+    instructions:
+      - "Heat olive oil in a wok over medium heat."
+      - "Add garlic and sauté until fragrant."
+      - "Add all vegetables and stir‑fry for 5–7 minutes."
+      - "Pour soy sauce, toss to coat, and serve hot."
+
+  - name: "Chicken Alfredo Pasta"
+    servings: 4
+    tags:
+      - non‑vegetarian
+      - dinner
+    ingredients:
+      - ingredient: "Fettuccine pasta"
+        quantity: 400
+        unit: "g"
+      - ingredient: "Boneless chicken breast, diced"
+        quantity: 300
+        unit: "g"
+      - ingredient: "Heavy cream"
+        quantity: 250
+        unit: "ml"
+      - ingredient: "Parmesan cheese, grated"
+        quantity: 50
+        unit: "g"
+      - ingredient: "Butter"
+        quantity: 2
+        unit: "tbsp"
+      - ingredient: "Garlic powder"
+        quantity: 1
+        unit: "tsp"
+    instructions:
+      - "Cook pasta according to package instructions; drain."
+      - "Sauté chicken in butter until cooked through."
+      - "Add cream, Parmesan, and garlic powder; simmer until thickened."
+      - "Combine pasta with sauce, stir well, and serve."
+
+  - name: "Quinoa & Black Bean Salad"
+    servings: 3
+    tags:
+      - vegetarian
+      - lunch
+      - gluten‑free
+    ingredients:
+      - ingredient: "Quinoa"
+        quantity: 150
+        unit: "g"
+      - ingredient: "Black beans, rinsed"
+        quantity: 200
+        unit: "g"
+      - ingredient: "Corn kernels"
+        quantity: 100
+        unit: "g"
+      - ingredient: "Red onion, diced"
+        quantity: 50
+        unit: "g"
+      - ingredient: "Cilantro, chopped"
+        quantity: 10
+        unit: "g"
+      - ingredient: "Lime juice"
+        quantity: 2
+        unit: "tbsp"
+      - ingredient: "Olive oil"
+        quantity: 1
+        unit: "tbsp"
+    instructions:
+      - "Cook quinoa until fluffy; let cool."
+      - "In a bowl, combine quinoa, black beans, corn, onion, and cilantro."
+      - "Dress with lime juice and olive oil; season with salt & pepper."
+      - "Toss gently and serve chilled or at room temperature."
+
+  - name: "Beef Tacos"
+    servings: 6
+    tags:
+      - non‑vegetarian
+      - quick
+      - spicy
+    ingredients:
+      - ingredient: "Ground beef"
+        quantity: 500
+        unit: "g"
+      - ingredient: "Taco shells"
+        quantity: 12
+        unit: "pcs"
+      - ingredient: "Lettuce, shredded"
+        quantity: 100
+        unit: "g"
+      - ingredient: "Tomato, diced"
+        quantity: 80
+        unit: "g"
+      - ingredient: "Cheddar cheese, grated"
+        quantity: 50
+        unit: "g"
+      - ingredient: "Salsa"
+        quantity: 3
+        unit: "tbsp"
+      - ingredient: "Cumin powder"
+        quantity: 1
+        unit: "tsp"
+    instructions:
+      - "Cook ground beef in a skillet until browned."
+      - "Add cumin, salt, and pepper; stir for 2 minutes."
+      - "Fill taco shells with beef, lettuce, tomato, cheese, and salsa."
+      - "Serve immediately."
+
+  - name: "Miso‑Glazed Salmon"
+    servings: 2
+    tags:
+      - pescatarian
+      - dinner
+      - healthy
+    ingredients:
+      - ingredient: "Salmon fillets"
+        quantity: 200
+        unit: "g"
+      - ingredient: "Miso paste"
+        quantity: 1
+        unit: "tbsp"
+      - ingredient: "Soy sauce"
+        quantity: 1
+        unit: "tbsp"
+      - ingredient: "Honey"
+        quantity: 1
+        unit: "tsp"
+      - ingredient: "Sesame oil"
+        quantity: 1
+        unit: "tsp"
+    instructions:
+      - "Preheat oven to 200°C (400°F)."
+      - "Mix miso, soy sauce, honey, and sesame oil; brush over salmon."
+      - "Bake for 12–15 minutes until cooked through."
+      - "Serve with steamed rice and green beans."
