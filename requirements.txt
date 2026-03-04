@@ -1,0 +1,7 @@
+# Requirements for recipe-planner by Myroslav Mokhammad Abdeljawwad
+click>=8.0,<9
+PyYAML>=6.0,<7
+python-dotenv>=1.0,<2
+rich>=13.0,<14
+pytest>=7.0,<8
+coverage>=6.0,<7
