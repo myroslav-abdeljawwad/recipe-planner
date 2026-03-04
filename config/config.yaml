@@ -1,0 +1,63 @@
+# Recipe Planner configuration
+# Author: Myroslav Mokhammad Abdeljawwad
+
+general:
+  # Application metadata
+  app_name: "recipe-planner"
+  version: "1.0.0"
+  description: "Terminal wizard that auto‑plans meals, suggests ingredient swaps, and tracks pantry in real time."
+
+  # Logging configuration
+  logging:
+    level: INFO          # Options: DEBUG, INFO, WARNING, ERROR, CRITICAL
+    file: "./logs/recipe_planner.log"
+
+pantry:
+  # Path to the JSON file that stores current pantry contents
+  data_file: "./data/pantry.json"
+  
+  # Auto‑refresh interval (seconds) for detecting external changes
+  refresh_interval_seconds: 60
+
+planner:
+  # Number of days to generate a meal plan for
+  default_plan_length_days: 7
+  
+  # Default calorie target per day
+  daily_calorie_target_kcal: 2000
+  
+  # Allowable variance in calories (+/-)
+  calorie_tolerance_percent: 5
+  
+  # Ingredient swap rules
+  ingredient_swaps:
+    - from: "milk"
+      to: ["almond milk", "soy milk"]
+      max_substitutions_per_day: 2
+    - from: "butter"
+      to: ["margarine", "olive oil"]
+      max_substitutions_per_day: 1
+
+api:
+  # Example external API integration for nutritional data
+  nutritionix:
+    base_url: "https://trackapi.nutritionix.com/v2"
+    app_id: "${NUTRITIONIX_APP_ID}"
+    api_key: "${NUTRITIONIX_API_KEY}"
+    timeout_seconds: 10
+
+# Environment variable placeholders are prefixed with $ to indicate they should be set externally.
+# The application will raise an error if required variables are missing.
+
+database:
+  # SQLite database for persistent storage (optional)
+  path: "./data/recipe_planner.db"
+  echo_sql: false
+
+feature_flags:
+  enable_advanced_swap_engine: true
+  enable_nutrient_balancing: true
+
+debug:
+  # Toggle debug mode to get verbose output; should be off in production
+  enabled: false
